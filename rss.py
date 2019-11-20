@@ -6,5 +6,5 @@ def home():
   return "hello" 
 @app.route("/rss")
 def rss():
-  return render_template("rss.html")
+  return render_template("rss.php")
 app.run(host='0.0.0.0',port=80,debug=True)
